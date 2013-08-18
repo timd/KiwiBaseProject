@@ -6,27 +6,25 @@
 //  Copyright (c) 2013 Charismatic Megafauna Ltd. All rights reserved.
 //
 
-#import "KiwiBaseTests.h"
+#import "Kiwi.h"
 
-@implementation KiwiBaseTests
+SPEC_BEGIN(KiwiBaseTests)
 
-- (void)setUp
-{
-    [super setUp];
+describe(@"The tests", ^{
     
-    // Set-up code here.
-}
-
-- (void)tearDown
-{
-    // Tear-down code here.
+    context(@"when testing basic stuff", ^{
+        
+        it(@"should pass when the assertion is true", ^{
+            
+            NSUInteger a = 10;
+            NSUInteger b = 23;
+            [[theValue(a+b) should] equal:theValue(33)];
+            
+        });
+        
+    });
     
-    [super tearDown];
-}
+});
 
-- (void)testExample
-{
-    STFail(@"Unit tests are not implemented yet in KiwiBaseTests");
-}
 
-@end
+SPEC_END
