@@ -3,7 +3,7 @@ KiwiBaseProject
 
 A basic Cocoapods-based Xcode project including the Kiwi testing framework.
 
-*** Installation process ***
+###Installation process
 
 1. (If required) Install Cocoapods on your system
 1. Clone the project
@@ -12,11 +12,11 @@ A basic Cocoapods-based Xcode project including the Kiwi testing framework.
 1. If prompted to, amend the header search paths for the test target (see below)
 1. Open the `.xcworkspace` file to begin working with the project
 
-*** About this project ***
+###About this project
 
 This is a basic single-view based project with Cocoapods.  It installs the Kiwi testing framekwork, provides app and test targets, and implements a single template test.
 
-*** Amending header search paths ***
+###Amending header search paths
 
 If prompted by the Cocoapods installation process, it may be necessary to amend the framework search paths for the test target:
 
