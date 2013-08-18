@@ -444,8 +444,8 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KiwiBase.app/KiwiBase";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KiwiBase/KiwiBase-Prefix.pch";
@@ -463,8 +463,8 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KiwiBase.app/KiwiBase";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KiwiBase/KiwiBase-Prefix.pch";
