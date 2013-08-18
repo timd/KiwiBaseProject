@@ -1,9 +1,15 @@
 KiwiBaseProject
 ===============
 
-A basic Cocoapods-based Xcode project including the Kiwi testing framework.
+A basic Cocoapods-based Xcode project including the Kiwi testing framework.  This includes an Xcode workspace containing:
 
-###Installation process
+* a basic single-view application with application and unit testing targets
+* a Cocoapods target
+* the Kiwi testing framework installed with Cocoapods
+
+No further installation process should be necessary, but the steps required are listed below:
+
+###Installation process (if required)
 
 1. (If required) Install Cocoapods on your system
 1. Clone the project
